@@ -1,0 +1,38 @@
+
+.container{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 20px solid black;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+
+.box{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background: #999;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    transform-origin: bottom right;
+    text-align: center;
+    line-height: 200px;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: white;
+    
+}
+
+.box.lime{
+    background: lime;
+}
+
+.box.red{
+    background: red;
+}
+/* 
+.container:hover .box{
+    transform: rotate(40deg)
+} */
